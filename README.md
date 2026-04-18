@@ -1,40 +1,120 @@
-\# Sales Forecasting Project
+\# 📊 Sales Forecasting Project
 
 
 
-\## Overview
+\## 🔍 Problem Statement
 
-End-to-end sales forecasting project using SARIMAX model.
-
-
-
-\## Key Components
-
-\- EDA \& Feature Engineering
-
-\- Time Series Forecasting
-
-\- Model Evaluation (MAE, RMSE)
-
-\- Tableau Dashboard
-
-\- Flask API Deployment
+Forecast daily sales using historical data to support business decision-making and demand planning.
 
 
 
-\## Folder Structure
+\## 🎯 Objective
 
-\- data/
-
-\- notebooks/
-
-\- src/
-
-\- dashboard/
+Build an accurate time-series forecasting model and evaluate its performance using key error metrics.
 
 
 
-\## Tools Used
+\---
 
-Python, Pandas, Scikit-learn, Statsmodels, Tableau, Flask
+
+
+\## 🧠 Approach
+
+
+
+\### 1. Exploratory Data Analysis (EDA)
+
+\- Checked trends, seasonality, and patterns
+
+\- Identified impact of discounts and holidays
+
+
+
+\### 2. Hypothesis Testing
+
+\- Tested impact of store type, region, and promotions on sales
+
+
+
+\### 3. Feature Engineering
+
+\- Created lag features
+
+\- Added date-based features
+
+
+
+\### 4. Model Building
+
+\- Used \*\*SARIMAX\*\* model
+
+\- Considered seasonality and external factors
+
+
+
+\### 5. Model Evaluation
+
+\- MAE (Mean Absolute Error)
+
+\- RMSE (Root Mean Squared Error)
+
+
+
+\---
+
+
+
+\## 📈 Results
+
+\- Model captured trend and seasonality effectively
+
+\- Forecast aligned closely with actual values
+
+\- RMSE and MAE used for validation
+
+
+
+\---
+
+
+
+\## 🚀 Deployment
+
+\- Built a \*\*Flask API\*\* for prediction
+
+\- Can take input and return forecasted sales
+
+
+
+\---
+
+
+
+\## 📊 Dashboard
+
+\- Interactive Tableau dashboard
+
+\- Filters: Date, Store Type, Region, Holiday, Discount
+
+
+
+\---
+
+
+
+\## 🛠️ Tech Stack
+
+\- Python (Pandas, NumPy, Statsmodels, Scikit-learn)
+
+\- Tableau
+
+\- Flask
+
+
+
+\---
+
+
+
+\## 📂 Project Structure
 
